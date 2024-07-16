@@ -1,0 +1,122 @@
+:root {
+    --bg-black: #010101;
+    --primary-color: #007bff;
+    --secondary-color: #403c3c;
+    --text-White: #fff;
+    --Urbanist: 'Urbanist Regular', sans-serif;
+    --AllRoundGothic: 'AllRound Gothic Bold', sans-serif;
+    --FontspringDemo: 'Fontspring Demo', sans-serif;
+    --FontspringDemoText: 'Fontspring Demo Text', sans-serif;
+
+}
+
+/*
+@font-face {
+    font-family: 'AllRound Gothic Bold';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Urbanist-Bold.ttf') format('truetype'); 
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist Regular';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Urbanist-Regular.ttf') format('truetype'); 
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring Demo Text';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Fontspring-DEMO-allroundgothic-text.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring Demo';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Fontspring-DEMO-allroundgothic-bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Fontspring Demo';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Fontspring-DEMO-allroundgothic-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*/
+@font-face {
+    font-family: 'AllRound Gothic Bold';
+    src: url('/assets/fonts/Urbanist-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist Regular';
+    src: url('/assets/fonts/Urbanist-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring Demo Text';
+    src: url('/assets/fonts/Fontspring-DEMO-allroundgothic-text.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring Demo';
+    src: url('/assets/fonts/Fontspring-DEMO-allroundgothic-bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*
+
+@font-face {
+    font-family: 'Fontspring Demo';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Fontspring-DEMO-allroundgothic-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+/*
+
+@font-face {
+    font-family: 'AllRound Gothic Bold';
+    src: url('https://josueflores777.github.io/SayHello-Website/assets/fonts/Urbanist-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist Regular';
+    src: url('https://josueflores777.github.io/SayHello-Website/assets/fonts/Urbanist-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring Demo Text';
+    src: url('https://josueflores777.github.io/SayHello-Website/assets/fonts/Fontspring-DEMO-allroundgothic-text.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring Demo';
+    src: url('https://josueflores777.github.io/SayHello-Website/assets/fonts/Fontspring-DEMO-allroundgothic-bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+@font-face {
+    font-family: 'Fontspring Demo';
+    src: url('https://usayhello.com/demowebsite/assets/fonts/Fontspring-DEMO-allroundgothic-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../public/img/iconW.png" type="image/x-icon">
+    <title>SayHello -Work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../assets/style/style.css">
+
+</head>
+
+<body class="m-0 border-0">
+
+    <!-- start nav  -->
+    <nav>
+        <div class="wrapper fixed-top">
+            <div class="logo">
+                <a href="../index.html"> <img src="../public/img/logo blanco.png" alt=""></a>
+
+            </div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          
+                <li><a href="./work.html" class="navtext">Work</a></li>
+                <li><a href="#" class="navtext activeC">About me</a></li>
+                <li><a href="./contact.html" class="navtext">Contact</a></li>
+            </ul>
+            <div class="text-end">
+                <form>
+                    <button class="btn2 btn-homeMc" id="box2" onclick="selectBox(1, event)">Start a Project
+                        <svg style="margin-left: 6px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 1 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8">
+                            </path>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- startcontainer home  -->
+    <div class="container-fluid  mx-auto mt-8 p-3">
+        <section class="principalBlog custom-container margenGeneral">
+            <div class="centered-content">
+                <div class="row">
+                    <!-- Contenido principal -->
+                    <div class="col-md-6 order-md-2 paddingImg1600">
+                        <img src="../assets/img/why/why-us-cover-image.jpg" alt="Imagen"
+                            class="img-fluid custom-image borRadModal ">
+                    </div>
+                    <div class="col-md-6 order-md-1 d-flex flex-column justify-content-between">
+                        <div>
+                            <h2 class="textColor-white3 blogTitle">About me</h2>
+                            <p class="textColor-white3 blogtext">We're not just a digital agency; we're the catalyst
+                                that propels your business toward greater heights. With us, you're not a client you're a
+                                partner, and your success is our destination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <div class="yellow-background">
+        <p class="margenGeneral">What you get working with us</p>
+    </div>
+
+    <div class="container-fluid">
+
+
+        <div class="container-fluid">
+
+
+
+
+            <div class="container-fluid">
+
+
+            </div>
+            <div class="fullscreen-background top-up" id="fullscreen-background"></div>
+            <div class="scrollerWork" id="scrollerWork">
+
+                <div class="box on-top animate__animated animate__backInUp" id="big-box">
+                    <a class="close-button" onclick="clearSelection()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                            class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path
+                                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                        </svg>
+                    </a>
+                    <div class="marginTopContaTitleContact marginTopContaTitle fontContact">
+
+                        <h1 class="text-center">Fill in the blanks and we'll get back to you in one business day.</h1>
+                    </div>
+                    <div class="content paddingContactForm ">
+                        <script charset="utf-8" type="text/javascript"
+                            src="//js.hsforms.net/forms/embed/v2.js"></script>
+                        <script>
+                            hbspt.forms.create({
+                                region: "na1",
+                                portalId: "9014541",
+                                formId: "290a28d3-f2ef-43da-9ceb-6b0164645e9a"
+                            });
+                        </script>
+                        <!--
+                      <form class="row g-3 needs-validation" id="test" novalidate>
+                        <div class="mb-3">
+                          <label for="validationCustom01" class="form-label">Your name:</label>
+                          <input type="text" class="form-control" id="validationCustom01" required placeholder="Enter your name">
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="validationCustom02" class="form-label">Company name:</label>
+                          <input type="text" class="form-control" id="validationCustom02" required placeholder="e.g Systems Inc.">
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="validationCustom01" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="validationCustom01" placeholder="Enter your email" required>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="validationCustom01" class="form-label">Phone</label>
+                          <input type="number" class="form-control" id="validationCustom01" required placeholder="+1 (555) 000-000">
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="validationCustom01" class="form-label">What's your budget?</label>
+                          <p class="rangeText">A transparent budget will help us ensure your expectations are met. </p>
+            
+                          <p id="range-pay">$30K - $50K</p>
+                          <div class="row rowRange">
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined1" autocomplete="off">
+                              <label class="btn btn-outline-primary activeCRange mw-100" for="btn-check-outlined1"></label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined2" autocomplete="off">
+                              <label class="btn btn-outline-primary mw-100" for="btn-check-outlined2"></label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined3" autocomplete="off">
+                              <label class="btn btn-outline-primary" for="btn-check-outlined3"></label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined4" autocomplete="off">
+                              <label class="btn btn-outline-primary" for="btn-check-outlined4"></label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined5" autocomplete="off">
+                              <label class="btn btn-outline-primary" for="btn-check-outlined5"></label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined6" autocomplete="off">
+                              <label class="btn btn-outline-primary" for="btn-check-outlined6"></label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="checkbox" class="btn-check" id="btn-check-outlined7" autocomplete="off">
+                              <label class="btn btn-outline-primary" for="btn-check-outlined7"></label>
+                            </div>
+                          </div>
+                          <script>
+                            document.querySelectorAll('.btn-check').forEach(item => {
+                                item.addEventListener('click', event => {
+                                    let clickedIndex = parseInt(event.target.id.slice(-1));
+                                  
+                                    for (let i = clickedIndex + 1; i <= 7; i++) {
+                                        document.getElementById(`btn-check-outlined${i}`).checked = false;
+                                    }
+                                   
+                                    for (let i = 1; i <= clickedIndex; i++) {
+                                        document.getElementById(`btn-check-outlined${i}`).checked = true;
+                                    }
+                                    let salaryRanges = ["$30K - $50K", "$50K - $70K", "$70K - $90K", "$90K - $100K", "$100K - $120K", "$120K - $130K", "$130K - $150K"];
+                                    document.getElementById("range-pay").innerText = salaryRanges[clickedIndex - 1];
+                                });
+                            });
+                            
+                        </script>
+            
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Tell us about your project</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Let us know how we can help." required></textarea>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                        </div>
+                
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-contact" type="sebd">Submit form</button>
+                        </div>
+                      </form>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contenService blogServi">
+
+
+            <div class="row mb-4 margenGeneralService">
+                <div class="col-md-6 order-md-2 order-1  ">
+                    <div class="imagenFlui">
+                        <img src="../assets/img/why/startups-cover-image.jpg" class="img-fluid borRadModal" alt=""
+                            srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 order-2 align-items-center d-flex justify-content-center textService">
+                    <div>
+                        <h2 class="text-break textColor-white2">Extensive Experience Working with Start Ups
+                        </h2>
+                        <p class="text-break textColor-white2">For the past six years in the LATAM region, we have
+                            gained substantial experience cultivating the growth of startups. We have contributed to the
+                            establishment and rapid advancement of numerous companies in a short period of time.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mb-4 margenGeneralService">
+                <div class="col-md-6  order-1 ">
+                    <div class="imagenFlui">
+                        <img src="../assets/img/why/workforce-cover-image.jpg" class="img-fluid borRadModal" alt=""
+                            srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6  order-2 align-items-center d-flex justify-content-center textService">
+                    <div>
+                        <h2 class="text-break textColor-white2">Bilingual & Dedicated Workforce
+                        </h2>
+                        <p class="text-break textColor-white2">Our team possesses full professional English proficiency
+                            which enables us to effectively communicate with international partners, clients, and
+                            stakeholders.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row mb-4 margenGeneralService">
+                <div class="col-md-6 order-md-2 order-1  ">
+                    <img src="../assets/img/why/time-zone-cover-image.webp" class="img-fluid borRadModal" alt=""
+                        srcset="">
+
+                </div>
+                <div class="col-md-6 order-md-1 order-2 align-items-center d-flex justify-content-center textService">
+                    <div>
+                        <h2 class="text-break textColor-white2">United States Time Zone
+                        </h2>
+                        <p class="text-break textColor-white2">Being in the same time zones facilitates real-time
+                            collaboration throughout the day. Our staff is available during the critical working hours
+                            to deliver fast responses, problem solving, and project advancement. </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row mb-4 margenGeneralService">
+                <div class="col-md-6 order-1">
+                    <div class="imagenFlui">
+                        <img src="../assets/img/why/hubspot-expert-cover-image.jpg" class="img-fluid borRadModal" alt=""
+                            srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 order-2 d-flex align-items-center justify-content-center textService">
+                    <div>
+                        <h2 class="text-break textColor-white2">Hubspot CRM Specialists
+                        </h2>
+                        <p class="text-break textColor-white2">As a certified Hubspot partner, we offer advantages to
+                            startups, including substantial discounts on Hubspot licenses</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4 margenGeneralService">
+                <div class="col-md-6 order-md-2 order-1  ">
+                    <div class="imagenFlui">
+                        <img src="../assets/img/why/AI-tools-cover-image.jpg" class="img-fluid borRadModal" alt=""
+                            srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 order-2 align-items-center d-flex justify-content-center textService">
+                    <div>
+                        <h2 class="text-break textColor-white2">Use of State-of-the-Art AI Tools</h2>
+                        <p class="text-break textColor-white2">We use cutting edge AI tools for project management,
+                            growth hacking, and design. By staying ahead of the curve with technology we achieve the
+                            highest quality of deliverables.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row mb-4 margenGeneralService">
+                <div class="col-md-6">
+                    <div class="imagenFlui">
+                        <img src="../assets/img/why/US-Nezone-cover-image.jpg" class="img-fluid borRadModal" alt=""
+                            srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center textService">
+                    <div>
+                        <h2 class="text-break textColor-white2">American Co-Founder with Direct Contact Information
+                            Provided (Whatsapp)</h2>
+                        <p class="text-break textColor-white2">Our American co-founder provides cultural familiarity and
+                            you can reach out anytime with the direct contact information provided. Whatsapp is his
+                            preferred communication method.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <!--End container home -->
+    <!-- Start Footeer Home -->
+    <footer class="footer-contact">
+        <div class="container-fluid">
+            <div class="row g-0 footerConter">
+                <div class="col-md-8">
+                    <h1 class="textColor-white2 footerTitle">
+                        Come say hello and we’ll create something together
+                    </h1>
+                    <form>
+                        <button class="btn btn-home margeBut3 " id="box1" onclick="selectBox(2)" type="button">Start
+                            a Project
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 1 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8">
+                                </path>
+                            </svg>
+                        </button>
+                    </form>
+
+                </div>
+               
+            </div>
+            <div class="finalFooter">
+                <div class="draw-on-scroll-my"></div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <a href="../index.html">Home</a>
+                        <a href="./work.html">Work</a>
+                        <a href="./contact.html">Contact us</a>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <p> <a href="#" target="_blank" rel="noopener noreferrer"> @sayhello.global</a></p>
+                        <p>
+                            <a href="https://www.facebook.com/SayHelloSV" class="text-decoration-none">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951">
+                                    </path>
+                                </svg>
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="https://www.instagram.com/sayhello.global/" class="text-decoration-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334">
+                                    </path>
+                                </svg>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Start Footeer Home  -->
+
+    <style>
+
+    </style>
+
+    <script>
+    
+        function selectBox(index) {
+            event.preventDefault();
+            document.getElementById("fullscreen-background").style.backgroundColor = "#343333a7";
+            document.getElementById("fullscreen-background").style.zIndex = 10;
+            document.getElementById("scrollerWork").style.display = "block";
+        }
+
+        function clearSelection() {
+            document.getElementById("scrollerWork").scrollTop = 0;
+            document.getElementById("scrollerWork").style.display = "none";
+            document.getElementById("fullscreen-background").style.zIndex = -6;
+            document.getElementById("fullscreen-background").style.backgroundColor = "black";
+        }
+
+        document.getElementById("scrollerWork").addEventListener("scroll", function () {
+            var scrollPosition = this.scrollTop;
+            var paddingValue;
+            if (window.innerWidth < 478) {
+                paddingValue = scrollPosition > 0 ? 0 : 30;
+            } else {
+                paddingValue = scrollPosition > 0 ? 0 : 60;
+            }
+            this.style.transition = "padding-left 0.4s ease, padding-right 0.4s ease";
+            this.style.padding = paddingValue + "px";
+        });
+        // Función para ejecutar la animación
+        function ejecutarAnimacion() {
+            var distanceToFooterTop = document.querySelector('footer').getBoundingClientRect().top;
+
+            if (distanceToFooterTop < window.innerHeight) {
+                document.querySelector('.draw-on-scroll-my').style.width = '90%';
+                document.querySelector('.draw-on-scroll2').style.width = '50%';
+                document.querySelector('.draw-on-scroll2').style.right = '0';
+            } else {
+                document.querySelector('.draw-on-scroll-my').style.width = '0';
+                document.querySelector('.draw-on-scroll2').style.width = '0';
+                document.querySelector('.draw-on-scroll2').style.right = '0';
+            }
+        }
+
+        // Ejecutar la animación al cargar la página
+        window.addEventListener('load', function () {
+            ejecutarAnimacion();
+        });
+
+        // Ejecutar la animación al hacer scroll
+        window.addEventListener('scroll', function () {
+            ejecutarAnimacion();
+        });
+    </script>
+
+    <script src="../assets/js/scrollreveal.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="../assets/js/scrollreveal.min.js"></script>
+</body>
+
+</html>
